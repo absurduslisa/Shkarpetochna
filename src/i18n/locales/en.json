@@ -1,0 +1,62 @@
+{
+  "header": {
+    "shop": "Shop",
+    "about": "About us",
+    "events": "Events"
+  },
+  "homeHero": {
+    "title": "Shkarpetorei",
+    "title2": "Socks that warm your heart ❤️",
+    "description": "Buy socks — warm your feet and your soul.",
+    "description2": "Handmade with love. \n\nEvery sock is unique.",
+    "subtitle": "All profits support Ukrainian defenders"
+  },
+  "homeShop": {
+    "title": "Our socks magic...",
+    "button": "Jump into warmth"
+  },
+  "homeEvents": {
+    "title": "Coordinates of comfortable socks",
+    "description": "We often join local markets where you can see our socks in real life, feel the handmade work, find your pair and a lot more.",
+    "button": "Places of warmth"
+  },
+  "homeAbout": {
+    "title": "Sockology",
+    "description": "The science of warmth, comfort and proper socks.\n\nResearch conducted by a mom and a grandma.\nNo lab coats, just love.",
+    "button": "Take a look behind the scenes"
+  },
+  "buttons": {
+    "addToCart": "Take your pair",
+    "hover": "Trust the socks",
+    "getMore": "Get more soft magic"
+
+  },
+    "shop": {
+    "title": "Sock heaven",
+    "description": "Choose your pair"
+  },
+  "events": {
+    "title": "Coordinates of comfortable socks",
+    "description": "We regularly take part in markets and fairs where you can see our socks in real life, feel their texture and choose your special pair.\n\nIt’s more than shopping — it’s small moments, filled with warmth, conversations and atmosphere.\n\nThere is always Ukrainian music — and often, we sing ourselves.\n\nIt’s more than socks.\nIt’s a little piece of home."
+  },
+  "eventNext": {
+    "title": "Next market:\n[date / city]",
+    "description": "Come say hi and find your perfect pair 🧦"
+  },
+  "archievments": {
+    "title": "Our socks archievments",
+    "description": "With your support, we can do more.\n\nEvery purchase helps Ukrainian defenders and brings warmth where it truly matters.\n\nOur defenders send their sincere thanks for your support.\n\nIt means more than just socks."
+  },
+  "about": {
+    "title": "Sockology",
+    "description": "We are two experts in warmth:\na mom and a grandma.\n\nOur research continues every day:\nhow to make socks softer, warmer and better for living.\n\nNo labs.\nNo complex formulas.\nJust yarn, hands and love.\n\nEach pair carries hours of work, a bit of patience and a lot of care."
+  },
+  "footer": {
+    "shop": "Shop",
+    "about": "About socks experts",
+    "events": "Events"
+  },
+  "cart": {
+    "empty": "No socks here… suspicious 👀"
+  }
+}

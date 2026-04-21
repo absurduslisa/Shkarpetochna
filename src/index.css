@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Shafarik';
+    src: url('../assets/fonts/Shafarik-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Shafarik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Podkova';
+    src: url('../assets/fonts/Podkova-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Podkova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orelega One';
+    src: url('../assets/fonts/OrelegaOne-Regular.woff2') format('woff2'),
+        url('../assets/fonts/OrelegaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ponomar';
+    src: url('../assets/fonts/Ponomar-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Ponomar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../assets/fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+  background-color: antiquewhite;
+}
+
+
+@import "tailwindcss";
+
+
+@theme {
+    --font-podkova: "Podkova", serif;
+    --font-ponomar: Ponomar, serif;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+@layer base {
+
+  body {
+    @apply text-gray-700 font-montserrat;
+  }
+
+  h1 {
+    @apply font-podkova text-red-700 font-bold text-7xl text-center;
+  }
+
+
+  h2 {
+    @apply font-podkova text-5xl font-bold text-red-700 py-6;
+  }
+
+  h3 {
+    @apply text-lg font-bold text-gray-700;
+  }
+
+  h2, p {
+    @apply whitespace-pre-line;
+  }
+
+  p {
+    @apply text-base;
+  }
+
+  /* Borders */
+  section,
+  #header {
+    @apply border-b-2 border-gray-600;
+  }
+
+  #footer {
+    @apply border-t-2 border-gray-600;
+  }
+
+  section > div,
+  #header > div {
+    @apply p-2 sm:p-4 px-6 lg:px-8 xl:px-16;
+  }
+
+  section > div {
+    @apply py-12 md:py-15 lg:py-16 max-w-7xl mx-auto;
+  }
+
+  /* img {
+    @apply w-full h-auto block;
+  } */
+}

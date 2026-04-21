@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": { "ua": "Шкарпетки від бабусі", "en": "Grandma's Socks" },
+      "category": { "ua": "теплі", "en": "warm" },
+      "price": 12,
+      "image": "/images/socks1.jpg"
+    },
+    {
+      "id": 2,
+      "title": { "ua": "Шкарпетки від мами", "en": "Mom's Socks" },
+      "category": { "ua": "обіймаючі", "en": "cozy" },
+      "price": 10,
+      "image": "/images/socks2.jpg"
+    },
+    {
+      "id": 3,
+      "title": { "ua": "Хуліганські шкарпетки", "en": "Rebel Socks" },
+      "category": { "ua": "хуліганські", "en": "rebellious" },
+      "price": 15,
+      "image": "/images/socks3.jpg"
+    },
+    {
+      "id": 4,
+      "title": { "ua": "Милі котячі шкарпетки", "en": "Cute Cat Socks" },
+      "category": { "ua": "милі", "en": "cute" },
+      "price": 14,
+      "image": "/images/socks4.jpg"
+    },
+    {
+      "id": 5,
+      "title": { "ua": "Класичні чорні", "en": "Classic Black Socks" },
+      "category": { "ua": "класика", "en": "classic" },
+      "price": 9,
+      "image": "/images/socks5.jpg"
+    },
+    {
+      "id": 6,
+      "title": { "ua": "Креативні з принтом", "en": "Creative Print Socks" },
+      "category": { "ua": "креативні", "en": "creative" },
+      "price": 16,
+      "image": "/images/socks6.jpg"
+    },
+    {
+      "id": 7,
+      "title": { "ua": "Тапочки пухнасті", "en": "Fluffy Slippers" },
+      "category": { "ua": "тапочки", "en": "slippers" },
+      "price": 22,
+      "image": "/images/socks7.jpg"
+    },
+    {
+      "id": 8,
+      "title": { "ua": "Різдвяні шкарпетки", "en": "Christmas Socks" },
+      "category": { "ua": "святкові", "en": "holiday" },
+      "price": 18,
+      "image": "/images/socks8.jpg"
+    },
+    {
+      "id": 9,
+      "title": { "ua": "Супер теплі вовняні", "en": "Super Warm Wool Socks" },
+      "category": { "ua": "теплі", "en": "warm" },
+      "price": 20,
+      "image": "/images/socks9.jpg"
+    },
+    {
+      "id": 10,
+      "title": { "ua": "Дивакуваті шкарпетки", "en": "Weird Socks" },
+      "category": { "ua": "особливі", "en": "unique" },
+      "price": 17,
+      "image": "/images/socks10.jpg"
+    }
+  ]
+}

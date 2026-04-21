@@ -1,0 +1,400 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": {
+        "ua": "Шкарпетки «Теплі обійми»",
+        "en": "Warm Hug Socks"
+      },
+      "description": {
+        "ua": "М’які як обійми бабусі. Трішки магії і багато тепла.",
+        "en": "Soft like grandma hugs. A little magic and a lot of warmth."
+      },
+      "price": 5,
+      "stock": false,
+      "category": {
+        "ua": "зимове тепло",
+        "en": "winter warmth"
+      },
+      "photo": "/images/1.png"
+    },
+    {
+      "id": 2,
+      "title": {
+        "ua": "Шкарпетки «Ранковий хаос»",
+        "en": "Morning Chaos Socks"
+      },
+      "description": {
+        "ua": "Для тих, хто прокидається і одразу шукає каву.",
+        "en": "For those who wake up and immediately search for coffee."
+      },
+      "price": 5,
+      "stock": true,
+      "category": {
+        "ua": "шкарпеточна класика",
+        "en": "daily"
+      },
+      "photo": "/images/2.png"
+    },
+    {
+      "id": 3,
+      "title": {
+        "ua": "Шкарпетки «Котяча змова»",
+        "en": "Cat Conspiracy Socks"
+      },
+      "description": {
+        "ua": "Коти точно щось приховують. Тепер і на твоїх ногах.",
+        "en": "Cats are definitely plotting something. Now on your feet."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "милі",
+        "en": "cute"
+      },
+      "photo": "/images/3.png"
+    },
+    {
+      "id": 4,
+      "title": {
+        "ua": "Шкарпетки «Ледачий понеділок»",
+        "en": "Lazy Monday Socks"
+      },
+      "description": {
+        "ua": "Офіційна форма для нічого-не-роблення.",
+        "en": "Official uniform for doing absolutely nothing."
+      },
+      "price": 5,
+      "stock": true,
+      "category": {
+        "ua": "ледачі",
+        "en": "lazy"
+      },
+      "photo": "/images/4.png"
+    },
+    {
+      "id": 5,
+      "title": {
+        "ua": "Шкарпетки «Космічний бунт»",
+        "en": "Space Rebel Socks"
+      },
+      "description": {
+        "ua": "Для тих, хто не з цієї планети.",
+        "en": "For those not from this planet."
+      },
+      "price": 7,
+      "stock": true,
+      "category": {
+        "ua": "хуліганські",
+        "en": "rebellious"
+      },
+      "photo": "/images/5.png"
+    },
+    {
+      "id": 6,
+      "title": {
+        "ua": "Шкарпетки «Чай і плед»",
+        "en": "Tea & Blanket Socks"
+      },
+      "description": {
+        "ua": "Затишок у кожному кроці.",
+        "en": "Cozy in every step."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "затишок",
+        "en": "cozy"
+      },
+      "photo": "/images/6.png"
+    },
+    {
+      "id": 7,
+      "title": {
+        "ua": "Шкарпетки «Дивний настрій»",
+        "en": "Weird Mood Socks"
+      },
+      "description": {
+        "ua": "Сьогодні ти просто дивний. І це ок.",
+        "en": "Today you're just weird. And that's fine."
+      },
+      "price": 5,
+      "stock": true,
+      "category": {
+        "ua": "креативні",
+        "en": "creative"
+      },
+      "photo": "/images/7.png"
+    },
+    {
+      "id": 8,
+      "title": {
+        "ua": "Шкарпетки «Мамині поради»",
+        "en": "Mom Advice Socks"
+      },
+      "description": {
+        "ua": "Вони завжди праві. Навіть у шкарпетках.",
+        "en": "They're always right. Even in socks."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "сімейні",
+        "en": "family"
+      },
+      "photo": "/images/8.png"
+    },
+    {
+      "id": 9,
+      "title": {
+        "ua": "Шкарпетки «Мінімалізм»",
+        "en": "Minimal Socks"
+      },
+      "description": {
+        "ua": "Нічого зайвого. Тільки стиль.",
+        "en": "Nothing extra. Just style."
+      },
+      "price": 5,
+      "stock": true,
+      "category": {
+        "ua": "класика",
+        "en": "classic"
+      },
+      "photo": "/images/9.png"
+    },
+    {
+      "id": 10,
+      "title": {
+        "ua": "Шкарпетки «Після дощу»",
+        "en": "After Rain Socks"
+      },
+      "description": {
+        "ua": "Свіжість і тиша.",
+        "en": "Freshness and silence."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "атмосферні",
+        "en": "aesthetic"
+      },
+      "photo": "/images/10.png"
+    },
+    {
+      "id": 11,
+      "title": {
+        "ua": "Шкарпетки «Сонний режим»",
+        "en": "Sleep Mode Socks"
+      },
+      "description": {
+        "ua": "Не чіпати. Я сплю.",
+        "en": "Do not disturb. I'm sleeping."
+      },
+      "price": 5,
+      "stock": true,
+      "category": {
+        "ua": "сонні",
+        "en": "sleep"
+      },
+      "photo": "/images/11.png"
+    },
+    {
+      "id": 12,
+      "title": {
+        "ua": "Шкарпетки «Геймерський режим»",
+        "en": "Gamer Mode Socks"
+      },
+      "description": {
+        "ua": "+10 до концентрації.",
+        "en": "+10 focus boost."
+      },
+      "price": 7,
+      "stock": true,
+      "category": {
+        "ua": "геймерські",
+        "en": "gaming"
+      },
+      "photo": "/images/12.png"
+    },
+    {
+      "id": 13,
+      "title": {
+        "ua": "Шкарпетки «Радість дрібниць»",
+        "en": "Joy of Little Things Socks"
+      },
+      "description": {
+        "ua": "Щастя у простому.",
+        "en": "Happiness in simplicity."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "позитивні",
+        "en": "positive"
+      },
+      "photo": "/images/13.png"
+    },
+    {
+      "id": 14,
+      "title": {
+        "ua": "Шкарпетки «Смішний пончик»",
+        "en": "Funny Donut Socks"
+      },
+      "description": {
+        "ua": "Солодкі, як життя без дедлайнів.",
+        "en": "Sweet like life without deadlines."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "веселі",
+        "en": "fun"
+      },
+      "photo": "/images/14.png"
+    },
+    {
+      "id": 15,
+      "title": {
+        "ua": "Шкарпетки «Тиха революція»",
+        "en": "Silent Revolution Socks"
+      },
+      "description": {
+        "ua": "Міняй світ тихо.",
+        "en": "Change the world quietly."
+      },
+      "price": 7,
+      "stock": true,
+      "category": {
+        "ua": "ідея",
+        "en": "concept"
+      },
+      "photo": "/images/15.png"
+    },
+    {
+      "id": 16,
+      "title": {
+        "ua": "Шкарпетки «Хаотичний геній»",
+        "en": "Chaotic Genius Socks"
+      },
+      "description": {
+        "ua": "Генії не завжди організовані.",
+        "en": "Geniuses are not always organized."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "хаос",
+        "en": "chaos"
+      },
+      "photo": "/images/16.png"
+    },
+    {
+      "id": 17,
+      "title": {
+        "ua": "Шкарпетки «М’яка реальність»",
+        "en": "Soft Reality Socks"
+      },
+      "description": {
+        "ua": "Реальність може бути приємною.",
+        "en": "Reality can be soft."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "аesthetic",
+        "en": "aesthetic"
+      },
+      "photo": "/images/17.png"
+    },
+    {
+      "id": 18,
+      "title": {
+        "ua": "Шкарпетки «Кава і сенс життя»",
+        "en": "Coffee & Meaning Socks"
+      },
+      "description": {
+        "ua": "Спочатку кава. Потім сенс.",
+        "en": "First coffee. Then meaning."
+      },
+      "price": 7,
+      "stock": true,
+      "category": {
+        "ua": "ранкові",
+        "en": "morning"
+      },
+      "photo": "/images/18.png"
+    },
+    {
+      "id": 19,
+      "title": {
+        "ua": "Шкарпетки «Невидимий комфорт»",
+        "en": "Invisible Comfort Socks"
+      },
+      "description": {
+        "ua": "Ти їх не помічаєш — і це добре.",
+        "en": "You don't notice them — and that's good."
+      },
+      "price": 5,
+      "stock": true,
+      "category": {
+        "ua": "мінімал",
+        "en": "minimal"
+      },
+      "photo": "/images/19.png"
+    },
+    {
+      "id": 20,
+      "title": {
+        "ua": "Шкарпетки «Сміхотерапія»",
+        "en": "Laughter Therapy Socks"
+      },
+      "description": {
+        "ua": "Лікують поганий настрій.",
+        "en": "Cure bad mood."
+      },
+      "price": 6,
+      "stock": true,
+      "category": {
+        "ua": "позитив",
+        "en": "positive"
+      },
+      "photo": "/images/20.png"
+    },
+    {
+      "id": 21,
+      "title": {
+        "ua": "Шкарпетки «Креативний вибух»",
+        "en": "Creative Explosion Socks"
+      },
+      "description": {
+        "ua": "Ідеї починаються з ніг.",
+        "en": "Ideas start from your feet."
+      },
+      "price": 7,
+      "stock": true,
+      "category": {
+        "ua": "креатив",
+        "en": "creative"
+      },
+      "photo": "/images/21.png"
+    },
+    {
+      "id": 22,
+      "title": {
+        "ua": "Шкарпетки «Фінальний бос»",
+        "en": "Final Boss Socks"
+      },
+      "description": {
+        "ua": "Ти вже пройшов рівень дорослого життя.",
+        "en": "You've already beaten adult life level."
+      },
+      "price": 8,
+      "stock": true,
+      "category": {
+        "ua": "легенда",
+        "en": "legend"
+      },
+      "photo": "/images/22.png"
+    }
+  ]
+}
