@@ -36,9 +36,7 @@
     "remove": "Remove",
     "removeHover": "Are you sure?",
     "buy": "Buy",
-    "buyHover": "Don't hesitate!",
-    "toShop": "Visit our shop",
-    "toShopHover": "Waiting for you!"
+    "buyHover": "Don't hesitate!"
   },
   "shop": {
     "title": "Sock heaven",

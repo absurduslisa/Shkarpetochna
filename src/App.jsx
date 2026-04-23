@@ -9,7 +9,7 @@ import Product from "./pages/ProductPage";
 import About from "./pages/AboutPage";
 import Events from './pages/Events';
 import Cart from "./pages/Cart";
-import Account from "./pages/Account";
+import Auth from "./pages/Auth";
 import Error from "./pages/Error"
 
 
@@ -35,7 +35,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/account" element={<Account />} />
+          <Route path="/account" element={<Auth />} />
           <Route path="*" element={<Error />} />
         </Routes>
         </main>

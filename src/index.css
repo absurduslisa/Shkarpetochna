@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Podkova';
-    src: url('./assets/fonts/Podkova-Bold.woff2') format('woff2'),
-        url('./assets/fonts/Podkova-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Shafarik';
+    src: url('./assets/fonts/Shafarik-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Shafarik-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -17,10 +17,19 @@
 }
 
 @font-face {
-    font-family: 'Podkova';
-    src: url('./assets/fonts/Podkova-Medium.woff2') format('woff2'),
-        url('./assets/fonts/Podkova-Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Orelega One';
+    src: url('./assets/fonts/OrelegaOne-Regular.woff2') format('woff2'),
+        url('./assets/fonts/OrelegaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ponomar';
+    src: url('./assets/fonts/Ponomar-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Ponomar-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -34,43 +43,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
-        url('./assets/fonts/Montserrat-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('Montserrat-LightItalic.woff2') format('woff2'),
-        url('Montserrat-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-MediumItalic.woff2') format('woff2'),
-        url('./assets/fonts/Montserrat-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
-        url('./assets/fonts/Montserrat-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 :root {
   background-color: antiquewhite;
 }
@@ -79,9 +51,9 @@
 
 @theme {
     --font-podkova: "Podkova", serif;
+    --font-ponomar: Ponomar, serif;
     --font-montserrat: "Montserrat", sans-serif;
-
-   /* --color-primary: oklch(50.5% 0.213 27.518); /* = red-700 */
+    /* --font-red: text-red-700; */
 }
 
 @layer base {
@@ -99,11 +71,11 @@
   }
 
   h2 {
-    @apply font-podkova text-4xl md:text-5xl font-bold text-red-700 pb-2 md:pb-4 lg:pb-6;
+    @apply font-podkova text-5xl font-bold text-red-700 pb-2 lg:pb-4;
   }
 
   h3 {
-    @apply font-podkova text-xl font-bold text-gray-700;
+    @apply text-xl font-bold text-gray-700;
   }
 
   h2, p {
@@ -111,16 +83,9 @@
   }
 
   p {
-    @apply text-sm sm:text-base break-words;
+    @apply text-base break-words;
   }
 
-  p.category {
-    @apply italic font-light;
-  }
-
-  a.homelink {
-    @apply italic font-normal;
-  }
   /* Borders */
   section,
   #header,
@@ -145,5 +110,9 @@
 
   section > div.section {
     @apply py-12 max-w-xl sm:max-w-3xl md:py-15 lg:py-16 lg:max-w-7xl mx-auto;
+  }
+
+  p.category {
+    @apply italic font-light;
   }
 }

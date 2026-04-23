@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   const lang = i18n.language;
 
   return (
-    <article key={product.id} className="h-full flex flex-col p-4 xl:p-6 border-2 hover:bg-orange-400/10">
+    <article key={product.id} className="h-full flex flex-col p-4 border-2 hover:bg-orange-400/10">
       <Link className={`${actions.focus} mb-4`} to={`/product/${product.id}`}>
         <img src={product.photo} alt={product.title?.[lang] || product.title} className={images.shop} />
         <div className="flex flex-col flex-1">
@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
             <h3 className={`${actions.hover}`}>{product.title?.[lang] || product.title}</h3>
             <p>{product.description?.[lang] || product.description}</p>
             <p className="category mt-4">{product.category?.[lang] || product.category }</p>
-            <p className="p-0">{product.price} &euro;</p>
+            <p>{product.price} &euro;</p>
           </div>
         </div>
       </Link>

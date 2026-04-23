@@ -17,7 +17,7 @@ function AboutPreview() {
         <div>
           <h2>{t("homeAbout.title")}</h2>
           <p className="whitespace-pre-line">{t("homeAbout.description")}</p>
-          <AppLink className=" homelink flex flex-row gap-4 self-end mt-10" img={arrow} to="/about">{t("homeAbout.button")}</AppLink>
+          <AppLink className="flex flex-row gap-4 self-end mt-10 italic" img={arrow} to="/about">{t("homeAbout.button")}</AppLink>
         </div>
         <img className={images.half} src={photo} alt="Granny with socks"/>
       </div>

@@ -8,10 +8,10 @@ const HeroSection = ({imagesrc, title, alttext, desc, desc2=null, sub=null}) => 
     <section className='hero bg-red-800 '>
       <div className='section text-center'>
         {/* <img src={photo} alt={alttext} /> */}
-        <h1 className='text-orange-100 pb-4'>{title ? title : t("homeHero.title")}</h1>
-        <p className='text-orange-100 py-4'>{desc ? desc : t("homeHero.description")}</p>
-        {desc2 && (<p className="text-orange-100 py-4">{desc2}</p>)}
-        {sub && (<p className="text-orange-100 py-4">{sub}</p>)}
+        <h1 className='text-orange-100'>{title ? title : t("homeHero.title")}</h1>
+        <p className='text-orange-100 py-8'>{desc ? desc : t("homeHero.description")}</p>
+        {desc2 && (<p className="text-orange-100 py-8">{desc2}</p>)}
+        {sub && (<p className="text-orange-100 py-8">{sub}</p>)}
         </div>
     </section>
   )
