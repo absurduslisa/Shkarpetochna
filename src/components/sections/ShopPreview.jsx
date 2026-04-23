@@ -28,10 +28,10 @@ const ShopPreview = () => {
 
   return (
     <section>
-      <div className="shop"> 
+      <div className="shop">
         <div className="flex flex-col justify-between">
           <h2>{t("homeShop.title")}</h2>
-          <AppLink className="flex flex-row gap-4 self-end italic" img={arrow} to="/shop">{t("homeShop.button")}</AppLink>
+          <AppLink className="homelink flex flex-row gap-4 self-end" img={arrow} to="/shop">{t("homeShop.button")}</AppLink>
         </div>
         <div className={`${grids.shop}`}>
           {products?.map((product) => (

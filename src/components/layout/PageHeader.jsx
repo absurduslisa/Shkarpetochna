@@ -36,7 +36,7 @@ const PageHeader = () => {
                 </span>
               )}
             </AppLink>
-            <AppLink to="/auth"><img className={`px-2 ${images.icons}`} src={account} alt="accoint icon" /></AppLink>
+            <AppLink to="/account"><img className={`px-2 ${images.icons}`} src={account} alt="accoint icon" /></AppLink>
             <LanguageSwitcher />
         </div>
       </div>
