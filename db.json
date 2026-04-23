@@ -1,4 +1,5 @@
 {
+  "comment": "для внутрішнього серверу через localhost",
   "products": [
     {
       "id": 1,
@@ -16,7 +17,7 @@
         "ua": "зимове тепло",
         "en": "winter warmth"
       },
-      "photo": "/images/1.png"
+      "photo": "/api/images/1.png"
     },
     {
       "id": 2,
@@ -34,7 +35,7 @@
         "ua": "шкарпеточна класика",
         "en": "daily"
       },
-      "photo": "/images/2.png"
+      "photo": "/api/images/2.png"
     },
     {
       "id": 3,
@@ -52,7 +53,7 @@
         "ua": "милі",
         "en": "cute"
       },
-      "photo": "/images/3.png"
+      "photo": "/api/images/3.png"
     },
     {
       "id": 4,
@@ -70,7 +71,7 @@
         "ua": "ледачі",
         "en": "lazy"
       },
-      "photo": "/images/4.png"
+      "photo": "/api/images/4.png"
     },
     {
       "id": 5,
@@ -88,7 +89,7 @@
         "ua": "хуліганські",
         "en": "rebellious"
       },
-      "photo": "/images/5.png"
+      "photo": "/api/images/5.png"
     },
     {
       "id": 6,
@@ -106,7 +107,7 @@
         "ua": "затишок",
         "en": "cozy"
       },
-      "photo": "/images/6.png"
+      "photo": "/api/images/6.png"
     },
     {
       "id": 7,
@@ -124,7 +125,7 @@
         "ua": "креативні",
         "en": "creative"
       },
-      "photo": "/images/7.png"
+      "photo": "/api/images/7.png"
     },
     {
       "id": 8,
@@ -142,7 +143,7 @@
         "ua": "сімейні",
         "en": "family"
       },
-      "photo": "/images/8.png"
+      "photo": "/api/images/8.png"
     },
     {
       "id": 9,
@@ -160,7 +161,7 @@
         "ua": "класика",
         "en": "classic"
       },
-      "photo": "/images/9.png"
+      "photo": "/api/images/9.png"
     },
     {
       "id": 10,
@@ -178,7 +179,7 @@
         "ua": "атмосферні",
         "en": "aesthetic"
       },
-      "photo": "/images/10.png"
+      "photo": "/api/images/10.png"
     },
     {
       "id": 11,
@@ -196,7 +197,7 @@
         "ua": "сонні",
         "en": "sleep"
       },
-      "photo": "/images/11.png"
+      "photo": "/api/images/11.png"
     },
     {
       "id": 12,
@@ -214,7 +215,7 @@
         "ua": "геймерські",
         "en": "gaming"
       },
-      "photo": "/images/12.png"
+      "photo": "/api/images/12.png"
     },
     {
       "id": 13,
@@ -232,7 +233,7 @@
         "ua": "позитивні",
         "en": "positive"
       },
-      "photo": "/images/13.png"
+      "photo": "/api/images/13.png"
     },
     {
       "id": 14,
@@ -250,7 +251,7 @@
         "ua": "веселі",
         "en": "fun"
       },
-      "photo": "/images/14.png"
+      "photo": "/api/images/14.png"
     },
     {
       "id": 15,
@@ -268,7 +269,7 @@
         "ua": "ідея",
         "en": "concept"
       },
-      "photo": "/images/15.png"
+      "photo": "/api/images/15.png"
     },
     {
       "id": 16,
@@ -286,7 +287,7 @@
         "ua": "хаос",
         "en": "chaos"
       },
-      "photo": "/images/16.png"
+      "photo": "/api/images/16.png"
     },
     {
       "id": 17,
@@ -304,7 +305,7 @@
         "ua": "аesthetic",
         "en": "aesthetic"
       },
-      "photo": "/images/17.png"
+      "photo": "/api/images/17.png"
     },
     {
       "id": 18,
@@ -322,7 +323,7 @@
         "ua": "ранкові",
         "en": "morning"
       },
-      "photo": "/images/18.png"
+      "photo": "/api/images/18.png"
     },
     {
       "id": 19,
@@ -340,7 +341,7 @@
         "ua": "мінімал",
         "en": "minimal"
       },
-      "photo": "/images/19.png"
+      "photo": "/api/images/19.png"
     },
     {
       "id": 20,
@@ -358,7 +359,7 @@
         "ua": "позитив",
         "en": "positive"
       },
-      "photo": "/images/20.png"
+      "photo": "/api/images/20.png"
     },
     {
       "id": 21,
@@ -376,7 +377,7 @@
         "ua": "креатив",
         "en": "creative"
       },
-      "photo": "/images/21.png"
+      "photo": "/api/images/21.png"
     },
     {
       "id": 22,
@@ -394,7 +395,7 @@
         "ua": "легенда",
         "en": "legend"
       },
-      "photo": "/images/22.png"
+      "photo": "/api/images/22.png"
     }
   ]
 }
