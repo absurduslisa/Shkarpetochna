@@ -10,7 +10,7 @@
     "title": "Shkarpetorei",
     "title2": "Socks that warm your heart",
     "description": "Buy socks — warm your feet and your soul.",
-    "description2": "/shkar·pet·ka/ is a Ukrainian word meaning 'sock'.\n\nHandmade with love. Every sock is unique.",
+    "description2": "/shkar·pet·ka/ is a Ukrainian word meaning 'sock'.\nHandmade with love. Every sock is unique.",
     "subtitle": "All profits and a lot of socks go to Ukrainian defenders."
   },
   "homeShop": {
@@ -73,7 +73,7 @@
     "arch": "Our archievments",
     "cart": "Your cart is waiting",
     "account": "Your personal space",
-    "disclamer": "This is a learning project built to practice React and Tailwind CSS. It is inspired by a real warm and amazing family in North Rhine-Westphalia (NRW), Germany. They regularly create handmade items and share them for local markets in NRW, or send them directly to Ukraine. This is NOT a real e-commerce store. No real online sales or payments take place in this project. If you ant to support Ukraine a little - come to visit them at the market and buy some cute items for your soul. 😌"
+    "disclamer": "This is a learning project built to practice React and Tailwind CSS. It is inspired by a warm and amazing family in North Rhine-Westphalia (NRW), Germany. They regularly create handmade items and share them for local markets in NRW, or send them directly to Ukraine. This is NOT a real e-commerce store. No real online sales or payments take place in this project. If you want to support Ukraine a little - come to visit them at the market and buy some cute items for your soul. 😌"
   },
   "cart": {
     "title": "Your dream <del>cat</del> cart",

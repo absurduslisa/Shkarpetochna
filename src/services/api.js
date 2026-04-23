@@ -1,6 +1,6 @@
 const BASE_URL = import.meta.env.VITE_API_URL;
 
-// GET ALL PRODUCTS
+// all
 export const getProducts = async () => {
   try {
     const res = await fetch(`${BASE_URL}/products`);

@@ -27,7 +27,7 @@ const ProductDetail = () => {
       <div className={`max-w-6xl mx-auto p-6 ${grids.flexi}`}>
         <img className={images.half} src={product.photo} alt={product.title?.[lang] ?? product.title?.en ?? ""} />
         <div>
-          <h1 className="text-left py-10 break-normal">{product.title?.[lang] ?? product.title?.en ?? product.title}</h1>
+          <h1 className="text-left py-10">{product.title?.[lang] ?? product.title?.en ?? product.title}</h1>
           <p>{product.description?.[lang] ?? product.description?.en ?? product.description}</p>
           <p className="category">{product.category?.[lang] ?? product.category?.en ?? product.category}</p>
           <p>{product.price} &euro;</p>

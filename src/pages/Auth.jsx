@@ -2,7 +2,11 @@ import React from 'react'
 
 const Auth = () => {
   return (
-    <div>Auth</div>
+    <section>
+      <div className='section'>
+        <h2>Sorry, there is no account feature yet</h2>
+      </div>
+    </section>
   )
 }
 

@@ -58,21 +58,24 @@
 
 @layer base {
 
-
   body {
     @apply text-gray-700 font-montserrat min-h-dvh;
   }
 
+  h1, h2, h3 {
+    @apply wrap-break-word;
+  }
+
   h1 {
-    @apply font-podkova text-red-700 font-bold text-7xl text-center break-all;
+    @apply font-podkova text-red-700 font-bold text-5xl md:text-6xl lg:text-7xl text-center;
   }
 
   h2 {
-    @apply font-podkova text-5xl font-bold text-red-700 pb-2 lg:pb-4 break-all;
+    @apply font-podkova text-5xl font-bold text-red-700 pb-2 lg:pb-4;
   }
 
   h3 {
-    @apply text-lg font-bold text-gray-700;
+    @apply text-xl font-bold text-gray-700;
   }
 
   h2, p {
@@ -80,7 +83,7 @@
   }
 
   p {
-    @apply text-base;
+    @apply text-base break-words;
   }
 
   /* Borders */
