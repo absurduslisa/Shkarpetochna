@@ -3,15 +3,15 @@ import { useTranslation } from 'react-i18next';
 import HeroSection from '../components/sections/HeroSection';
 
 // Photos
-import photo from '../assets/photos/event1.JPG';
-import photo2 from '../assets/photos/event2.JPG';
-import photo3 from '../assets/photos/event3.JPG';
-import photo4 from '../assets/photos/event4.JPG';
-import photo5 from '../assets/photos/event5.JPG';
-import photo6 from '../assets/photos/event6.JPG';
-import photo7 from '../assets/photos/event7.JPG';
-import photo8 from '../assets/photos/arch.JPG';
-import photo9 from '../assets/photos/arch2.JPG';
+import photo from '../assets/photos/event1.jpg';
+import photo2 from '../assets/photos/event2.jpg';
+import photo3 from '../assets/photos/event3.jpg';
+import photo4 from '../assets/photos/event4.jpg';
+import photo5 from '../assets/photos/event5.jpg';
+import photo6 from '../assets/photos/event6.jpg';
+import photo7 from '../assets/photos/event7.jpg';
+import photo8 from '../assets/photos/arch.jpg';
+import photo9 from '../assets/photos/arch2.jpg';
 
 // Styles
 import { grids, images, spacing } from '../styles/global';

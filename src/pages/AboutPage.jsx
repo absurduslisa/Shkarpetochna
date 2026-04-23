@@ -3,11 +3,11 @@ import { useTranslation } from 'react-i18next';
 import HeroSection from '../components/sections/HeroSection';
 
 // Photos
-import photo from '../assets/photos/us.JPG';
-import photo2 from '../assets/photos/us2.JPG';
-import photo3 from '../assets/photos/us3.JPG';
-import photo4 from '../assets/photos/us4.JPG';
-import photo5 from '../assets/photos/us5.JPG';
+import photo from '../assets/photos/us.jpg';
+import photo2 from '../assets/photos/us2.jpg';
+import photo3 from '../assets/photos/us3.jpg';
+import photo4 from '../assets/photos/us4.jpg';
+import photo5 from '../assets/photos/us5.jpg';
 
 // Styles
 import { grids, images, spacing } from '../styles/global';

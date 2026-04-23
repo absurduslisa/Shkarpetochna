@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { AppLink } from '../ui/AppLink';
 
 // Img
-import photo3 from '../../assets/photos/event3.JPG';
+import photo3 from '../../assets/photos/event3.jpg';
 import arrow from "../../assets/icons/arrow2.png"
 
 // Styles
