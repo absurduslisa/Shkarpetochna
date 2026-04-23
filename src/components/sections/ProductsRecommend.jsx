@@ -20,8 +20,8 @@ const ProductsRecommend = () => {
   }, [id]);
 
   return (
-    <section className="p-6">
-      <div className="section">
+    <section>
+      <div className="shop">
         <h2>Recommended 🧦</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {products.map(p => (

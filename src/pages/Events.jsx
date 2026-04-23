@@ -50,7 +50,7 @@ const Events = () => {
         </div>
       </section>
 
-      <section id='arch'>
+      <section id='arch' className='border-none'>
         <div className={`section ${grids.galery}`}>
           <div>
             <div>
