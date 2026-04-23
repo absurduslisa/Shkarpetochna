@@ -47,29 +47,28 @@
   background-color: antiquewhite;
 }
 
-
 @import "tailwindcss";
-
 
 @theme {
     --font-podkova: "Podkova", serif;
     --font-ponomar: Ponomar, serif;
     --font-montserrat: "Montserrat", sans-serif;
+    /* --font-red: text-red-700; */
 }
 
 @layer base {
 
+
   body {
-    @apply text-gray-700 font-montserrat;
+    @apply text-gray-700 font-montserrat min-h-dvh;
   }
 
   h1 {
-    @apply font-podkova text-red-700 font-bold text-7xl text-center;
+    @apply font-podkova text-red-700 font-bold text-7xl text-center break-all;
   }
 
-
   h2 {
-    @apply font-podkova text-5xl font-bold text-red-700 py-6;
+    @apply font-podkova text-5xl font-bold text-red-700 pb-2 lg:pb-4 break-all;
   }
 
   h3 {
@@ -86,7 +85,8 @@
 
   /* Borders */
   section,
-  #header {
+  #header,
+  #footer {
     @apply border-b-2 border-gray-600;
   }
 
@@ -94,16 +94,22 @@
     @apply border-t-2 border-gray-600;
   }
 
-  section > div,
-  #header > div {
+  section > div.section,
+  div.shop,
+  #header > div,
+  #footer > div {
     @apply p-2 sm:p-4 px-6 lg:px-8 xl:px-16;
   }
 
-  section > div {
-    @apply py-12 md:py-15 lg:py-16 max-w-7xl mx-auto;
+  div.shop {
+    @apply my-8 md:my-10 lg:my-16;
   }
 
-  /* img {
-    @apply w-full h-auto block;
-  } */
+  section > div.section {
+    @apply py-12 max-w-xl sm:max-w-3xl md:py-15 lg:py-16 lg:max-w-7xl mx-auto;
+  }
+
+  p.category {
+    @apply italic font-light;
+  }
 }

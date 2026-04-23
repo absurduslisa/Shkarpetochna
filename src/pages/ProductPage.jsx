@@ -2,15 +2,13 @@ import HeroSection from '../components/sections/HeroSection';
 import ProductDetail from '../components/sections/ProductDetail';
 import ProductsRecommend from '../components/sections/ProductsRecommend'
 
-
-export const App = () => {
+const ProductPage = () => {
   return (
-    <main className='bg-orange-100'>
+    <main>
       <ProductDetail />
-      {/* <CartPreview /> */}
       <ProductsRecommend />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default ProductPage;

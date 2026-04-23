@@ -2,14 +2,16 @@
   "header": {
     "shop": "Shop",
     "about": "About us",
-    "events": "Events"
+    "events": "Events",
+    "next": "Meet us in person",
+    "arch": "Our archievments"
   },
   "homeHero": {
     "title": "Shkarpetorei",
-    "title2": "Socks that warm your heart ❤️",
+    "title2": "Socks that warm your heart",
     "description": "Buy socks — warm your feet and your soul.",
-    "description2": "Handmade with love. \n\nEvery sock is unique.",
-    "subtitle": "All profits support Ukrainian defenders"
+    "description2": "/shkar·pet·ka/ is a Ukrainian word meaning 'sock'.\n\nHandmade with love. Every sock is unique.",
+    "subtitle": "All profits and a lot of socks go to Ukrainian defenders."
   },
   "homeShop": {
     "title": "Our socks magic...",
@@ -27,13 +29,25 @@
   },
   "buttons": {
     "addToCart": "Take your pair",
-    "hover": "Trust the socks",
-    "getMore": "Get more soft magic"
-
+    "addToCartHover": "Trust the socks",
+    "added": "Already waits for you",
+    "soldOut": "Already found its owner",
+    "getMore": "Get more soft magic",
+    "remove": "Remove",
+    "removeHover": "Are you sure?",
+    "buy": "Buy",
+    "buyHover": "Don't hesitate!"
   },
-    "shop": {
+  "shop": {
     "title": "Sock heaven",
-    "description": "Choose your pair"
+    "description": "Tiny knots that warm your heart",
+    "allCategories": "All socks of the universe",
+    "search": "Search for your perfect socks...",
+    "categories": "Types of warmth",
+    "sortDefault": "As the universe decides ✨",
+    "sortPriceAsc": "From cozy budget to fancy warmth",
+    "sortPriceDesc": "From fancy to humble warmth",
+    "total": "We have {{quantity}} interesting items waiting for you!"
   },
   "events": {
     "title": "Coordinates of comfortable socks",
@@ -52,11 +66,20 @@
     "description": "We are two experts in warmth:\na mom and a grandma.\n\nOur research continues every day:\nhow to make socks softer, warmer and better for living.\n\nNo labs.\nNo complex formulas.\nJust yarn, hands and love.\n\nEach pair carries hours of work, a bit of patience and a lot of care."
   },
   "footer": {
-    "shop": "Shop",
-    "about": "About socks experts",
-    "events": "Events"
+    "shop": "Your future pair of socks",
+    "about": "Our sock experts",
+    "events": "Socks adventures",
+    "next": "Meet us in person",
+    "arch": "Our archievments",
+    "cart": "Your cart is waiting",
+    "account": "Your personal space",
+    "disclamer": "This is a learning project built to practice React and Tailwind CSS. It is inspired by a real warm and amazing family in North Rhine-Westphalia (NRW), Germany. They regularly create handmade items and share them for local markets in NRW, or send them directly to Ukraine. This is NOT a real e-commerce store. No real online sales or payments take place in this project. If you ant to support Ukraine a little - come to visit them at the market and buy some cute items for your soul. 😌"
   },
   "cart": {
-    "empty": "No socks here… suspicious 👀"
-  }
+    "title": "Your dream <del>cat</del> cart",
+    "empty": "No socks here… suspicious 👀",
+    "amount": "We counted {{quantity}} items to go with you!",
+    "continue": "One step further to get your dream socks"
+  },
+  "error": "ERROR 404\n\nYou are on the wrong address!\n\nNo socks here!"
 }

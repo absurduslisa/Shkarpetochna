@@ -8,6 +8,9 @@ import { getProducts } from "../../services/api";
 import ProductCard from "./ProductCard";
 import { AppLink } from '../ui/AppLink';
 
+// Img
+import arrow from "../../assets/icons/arrow2.png"
+
 // Styles
 import { grids } from "../../styles/global";
 
@@ -18,20 +21,21 @@ const ShopPreview = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    getProducts().then((data) => {
-      console.log("API DATA:", data); // 👈 ДИБАГ
-      setProducts(data);
-    });
-  }, []);
+  getProducts().then((data) => {
+    setProducts(data.slice(0, 8));
+  });
+}, []);
 
   return (
     <section>
-      <div className="section">
-        <h2>{t("homeShop.title")}</h2>
-        <AppLink to="/shop">{t("homeShop.button")}</AppLink>
-        <div className={`border border-gray-600 ${grids.shop}`}>
+      <div className="shop"> 
+        <div className="flex flex-col justify-between">
+          <h2>{t("homeShop.title")}</h2>
+          <AppLink className="flex flex-row gap-4 self-end italic" img={arrow} to="/shop">{t("homeShop.button")}</AppLink>
+        </div>
+        <div className={`${grids.shop}`}>
           {products?.map((product) => (
-            <ProductCard key={product.id} product={product} lang={lang} />
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </div>

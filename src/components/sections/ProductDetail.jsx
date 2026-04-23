@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { getProduct } from "../../services/api";
-import Button from "../ui/Button";
+import AddToCartButton from "../ui/AddToCartButton";
+
+// Styles
+import { grids, images } from '../../styles/global';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -13,23 +16,26 @@ const ProductDetail = () => {
 
   useEffect(() => {
     getProduct(id).then((data) => {
-      console.log("PRODUCT:", data); // 👈 перевір
       setProduct(data);
     });
   }, [id]);
-  console.log(lang)
 
   if (!product) return <p>Loading...</p>;
 
   return (
-    <main className="p-6">
-      <img src={product.photo} className="w-full max-w-md" />
-      <h1>{product.title?.[lang]}</h1>
-      <p>{product.description?.[lang]}</p>
-      <p>{product.price} €</p>
-      <p> {product.stock ? "In stock 🧦" : "Sold out 😢"}</p>
-      <Button> {t("buttons.addToCart")} </Button>
-    </main>
+    <section>
+      <div className={`max-w-6xl mx-auto p-6 ${grids.flexi}`}>
+        <img className={images.half} src={product.photo} alt={product.title?.[lang] ?? product.title?.en ?? ""} />
+        <div>
+          <h1 className="text-left py-10 break-normal">{product.title?.[lang] ?? product.title?.en ?? product.title}</h1>
+          <p>{product.description?.[lang] ?? product.description?.en ?? product.description}</p>
+          <p className="category">{product.category?.[lang] ?? product.category?.en ?? product.category}</p>
+          <p>{product.price} &euro;</p>
+          <p>{product.stock ? "In stock 🧦" : "Sold out 😢"}</p>
+          <AddToCartButton className="mt-6" product={product} />
+        </div>
+      </div>
+    </section>
   );
 };
 

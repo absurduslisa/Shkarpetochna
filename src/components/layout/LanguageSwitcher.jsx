@@ -6,9 +6,9 @@ const LanguageSwitcher = () => {
 
   return (
     <div>
-      <button className={actions.action} onClick={() => i18n.changeLanguage("ua")}>UA</button>
-      <span>/</span>
-      <button className={actions.action} onClick={() => i18n.changeLanguage("en")}>EN</button>
+      <button className={`px-0.5 ${actions.focus} ${actions.hover}`} onClick={() => i18n.changeLanguage("ua")}>UA</button>
+      <span className='text-xs px-0.5'>/</span>
+      <button className={`px-0.5 ${actions.focus} ${actions.hover}`} onClick={() => i18n.changeLanguage("en")}>EN</button>
     </div>
   );
 };

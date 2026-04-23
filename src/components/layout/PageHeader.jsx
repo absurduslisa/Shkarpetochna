@@ -1,35 +1,46 @@
 import { useTranslation } from "react-i18next";
-
-import logo from '../../assets/logo.webp'
-import { CartProvider } from "../../context/CartContext";
+import { useCart } from "../../context/CartContext";
 import { AppLink } from '../ui/AppLink';
 import LanguageSwitcher from './LanguageSwitcher';
 
+// Logos
+import logo from '../../assets/logo2.png'
+import cart from '../../assets/icons/shopping-cart.svg';
+import account from '../../assets/icons/account.png'
 
+// Styles
+import { images } from "../../styles/global";
 
 const PageHeader = () => {
   const { t } = useTranslation();
+  const { totalItems } = useCart();
 
   return (
-    <CartProvider>
-      <nav id="header">
-        <div className={`flex justify-between`}>
-          <AppLink to="/"><img className="h-12 w-auto" src={logo} alt="Logo" /></AppLink>
+    <nav id="header" aria-label="main navigation">
+      <div className={`flex justify-between items-center`}>
+        <AppLink to="/"><img className="h-12 w-auto" src={logo} alt="Logo" /></AppLink>
 
-          <nav id="navi" className="flex-end flex gap-6">
-              <AppLink to="/shop">{t("header.shop")}</AppLink>
-              <AppLink to="/events">{t("header.events")}</AppLink>
-              <AppLink to="/about">{t("header.about")}</AppLink>
-          </nav>
-
-          <nav>
-              <AppLink to="/cart"><button className='pe-4'>Cart</button></AppLink>
-              <AppLink to="/auth"><button className=''>Account</button></AppLink>
-              <LanguageSwitcher />
-          </nav>
+        <div id="navi" className="hidden md:flex-end md:flex gap-8">
+            <AppLink to="/shop">{t("header.shop")}</AppLink>
+            <AppLink to="/events#events">{t("header.events")}</AppLink>
+            <AppLink to="/events#next">{t("header.next")}</AppLink>
+            <AppLink to="/events#arch">{t("header.arch")}</AppLink>
+            <AppLink to="/about#about">{t("header.about")}</AppLink>
         </div>
-      </nav>
-    </CartProvider>
+
+        <div className="flex flex-row items-center">
+            <AppLink className="flex flex-row" to="/cart"><img className={`px-2 ${images.icons}`} src={cart} alt="cart icon" />
+              {totalItems > 0 && (
+                <span className="bg-orange-400 text-white rounded-full px-1 w-4 text-center h-4 text-xs justify-self-end -ml-3">
+                  {totalItems}
+                </span>
+              )}
+            </AppLink>
+            <AppLink to="/auth"><img className={`px-2 ${images.icons}`} src={account} alt="accoint icon" /></AppLink>
+            <LanguageSwitcher />
+        </div>
+      </div>
+    </nav>
   )
 }
 

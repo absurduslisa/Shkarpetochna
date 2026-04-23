@@ -11,7 +11,7 @@ export const App = () => {
 
   return (
     <main>
-      <HeroSection title={t("homeHero.title")} paragraph={t("homeHero.description")}/>
+      <HeroSection title={t("homeHero.title")} desc={t("homeHero.description")} desc2={t("homeHero.description2")} sub={t("homeHero.subtitle")}/>
       <ShopPreview />
       <EventsPreview />
       <AboutPreview />

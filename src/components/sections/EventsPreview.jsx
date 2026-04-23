@@ -1,6 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { AppLink } from '../ui/AppLink';
+
+// Img
 import photo3 from '../../assets/photos/event3.JPG';
+import arrow from "../../assets/icons/arrow2.png"
 
 // Styles
 import { grids, images } from '../../styles/global';
@@ -10,12 +13,12 @@ function EventsPreview() {
   return (
     <section>
         <div className={`section ${grids.flexi}`}>
+          <img className={images.half} src={photo3} alt="Two girls in ukrainian outfits" />
           <div>
             <h2>{t("homeEvents.title")}</h2>
             <p className="whitespace-pre-line">{t("homeEvents.description")}</p>
-            <AppLink to="/events">{t("homeEvents.button")}</AppLink>
+            <AppLink className="flex flex-row gap-4 self-end mt-10 italic" img={ arrow } to="/events">{t("homeEvents.button")}</AppLink>
           </div>
-          <img className={images.half} src={photo3} alt="Two girls in ukrainian outfits" />
         </div>
     </section>
   );

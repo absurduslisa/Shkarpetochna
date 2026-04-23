@@ -1,17 +1,9 @@
-import { actions } from '../../styles/global';
+import { actions, borders, buttons } from '../../styles/global';
 
-const Button = ({ children, className = "", variant = "shop" }) => {
-  const base = actions.action;
-
-  const variants = {
-    shop: "border-2 border-gray-600 py-2 px-4 hover:bg-orange-400/20",
-    ghost: "px-2 py-1 text-sm",
-  };
+const Button = ({ children, className = "", onClick, ariaLabel }) => {
 
   return (
-    <button className={`${base} ${variants[variant]} ${className}`}>
-      {children}
-    </button>
+    <button aria-label={ariaLabel} onClick={onClick} className={`${borders.border_button} ${buttons.general} ${actions.focus} ${className}`}>{children}</button>
   );
 };
 
