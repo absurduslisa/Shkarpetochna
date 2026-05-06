@@ -38,6 +38,7 @@ const Events = () => {
             <img className={spacing.mt} src={photo4} alt="The mother of socks in ukrainian wreath with a huge deco wreath" />
           </div>
         </div>
+        <div className="ornament" aria-hidden="true"></div>
       </section>
 
       <section id="next">
@@ -48,9 +49,10 @@ const Events = () => {
             <p>{t("eventNext.description")}</p>
           </div>
         </div>
+        <div className="ornament" aria-hidden="true"></div>
       </section>
 
-      <section id='arch' className='border-none'>
+      <section id='arch'>
         <div className={`section ${grids.galery}`}>
           <div>
             <div>
@@ -64,6 +66,7 @@ const Events = () => {
             <img className={spacing.mt} src={photo9} alt="Online article about our market" />
           </div>
         </div>
+        <div className="ornament" aria-hidden="true"></div>
       </section>
     </main>
   )

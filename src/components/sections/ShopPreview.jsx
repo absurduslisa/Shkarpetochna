@@ -30,8 +30,14 @@ const ShopPreview = () => {
     <section>
       <div className="shop">
         <div className="flex flex-col justify-between">
-          <h2>{t("homeShop.title")}</h2>
-          <AppLink className="homelink flex flex-row gap-4 self-end" img={arrow} to="/shop">{t("homeShop.button")}</AppLink>
+          <AppLink to="/shop">
+            <h2>{t("homeShop.title")}</h2>
+          </AppLink>
+
+          <div className="flex flex-row gap-4 sm:gap-10 md:gap-20 lg:gap-24 items-center">
+            <div className="ornament" aria-hidden="true"></div>
+            <AppLink className="homelink linkWarrow self-end" to="/shop">{t("homeShop.button")}</AppLink>
+          </div>
         </div>
         <div className={`${grids.shop}`}>
           {products?.map((product) => (
@@ -39,6 +45,7 @@ const ShopPreview = () => {
           ))}
         </div>
       </div>
+      <div className="ornament" aria-hidden="true"></div>
     </section>
   );
 };

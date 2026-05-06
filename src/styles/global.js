@@ -20,8 +20,8 @@ export const borders = {
 }
 
 export const actions = {
-    focus: 'focus-visible:outline-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer',
-    hover: 'hover:text-red-700 active:text-red-700'
+    focus: 'focus-visible:outline-red-800 focus-visible:outline-2 focus-visible:outline-offset-2 cursor-pointer',
+    hover: 'hover:text-red-800 active:text-red-800'
 }
 
 export const grids = {
@@ -33,7 +33,7 @@ export const grids = {
 
 export const buttons = {
     general: 'py-2 px-4',
-    add: 'bg-red-700/10 hover:text-red-700 hover:bg-orange-400/20 active:bg-orange-400/40',
-    added: 'bg-green-200/50 hover:text-red-700 hover:bg-orange-400/20 active:bg-orange-400/40',
-    sold: 'bg-gray-100/50 text-gray-400 cursor-not-allowed '
+    add: 'bg-red-800/10 hover:text-red-800 hover:bg-orange-400/20 active:bg-orange-400/40',
+    added: 'bg-green-200/50 hover:text-red-800 hover:bg-orange-400/20 active:bg-orange-400/40',
+    sold: 'bg-gray-100/50 text-gray-400 cursor-not-allowed border-gray-200'
 }

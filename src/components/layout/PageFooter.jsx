@@ -12,7 +12,7 @@ const PageFooter = () => {
     <nav id="footer" aria-label="footer navigation">
       <div>
         <div className={`flex flex-col text-center md:flex-row md:justify-between md:items-center gap-2 md:gap-4 py-2 md:py-4`}>
-          <AppLink to="/" className="text-red-700 font-bold font-podkova text-3xl">{t("homeHero.title")}</AppLink>
+          <AppLink to="/" className="text-red-800 font-bold font-podkova text-3xl">{t("homeHero.title")}</AppLink>
 
           <div id="navi" className="flex flex-col gap-2">
               <AppLink to="/shop">{t("footer.shop")}</AppLink>

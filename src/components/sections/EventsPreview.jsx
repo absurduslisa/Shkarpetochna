@@ -15,11 +15,15 @@ function EventsPreview() {
         <div className={`section ${grids.flexi}`}>
           <img className={images.half} src={photo3} alt="Two girls in ukrainian outfits" />
           <div>
-            <h2>{t("homeEvents.title")}</h2>
+            <AppLink to="/events">
+              <h2>{t("homeEvents.title")}</h2>
+            </AppLink>
+
             <p className="whitespace-pre-line">{t("homeEvents.description")}</p>
-            <AppLink className="homelink flex flex-row gap-4 self-end mt-10" img={ arrow } to="/events">{t("homeEvents.button")}</AppLink>
+            <AppLink className="homelink linkWarrow mt-10" to="/events">{t("homeEvents.button")}</AppLink>
           </div>
         </div>
+        <div className="ornament" aria-hidden="true"></div>
     </section>
   );
 }
