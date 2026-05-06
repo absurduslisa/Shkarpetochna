@@ -12,15 +12,19 @@ function AboutPreview() {
   const { t } = useTranslation();
 
   return (
-    <section className="border-none">
+    <section>
       <div className={`section ${grids.flexi}`}>
         <div>
-          <h2>{t("homeAbout.title")}</h2>
+          <AppLink to="/about">
+            <h2>{t("homeAbout.title")}</h2>
+          </AppLink>
+
           <p className="whitespace-pre-line">{t("homeAbout.description")}</p>
-          <AppLink className=" homelink flex flex-row gap-4 self-end mt-10" img={arrow} to="/about">{t("homeAbout.button")}</AppLink>
+          <AppLink className="homelink linkWarrow mt-10" to="/about">{t("homeAbout.button")}</AppLink>
         </div>
         <img className={images.half} src={photo} alt="Granny with socks"/>
       </div>
+      <div className="ornament" aria-hidden="true"></div>
     </section>
   );
 }
